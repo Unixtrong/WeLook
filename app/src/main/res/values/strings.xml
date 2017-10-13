@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeLooK</string>
+    <string name="tell_seccess">验证成功</string>
+    <string name="tell_fail">验证失败</string>
+    <string name="tell_cancel">验证取消</string>
+    <string name="tell_session_invalidation">会话无效</string>
+    <string name="retweet_username">\@%1$s</string>
+</resources>

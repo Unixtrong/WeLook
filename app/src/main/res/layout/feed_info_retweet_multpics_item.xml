@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/layout_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:background="@drawable/retweet_background"
+        android:id="@+id/retweetLayout"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp"
+            android:id="@+id/retweet_user_name"
+            android:text="RetweetName"
+            android:textColor="@color/welookColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:id="@+id/retweet_user_essay"
+            android:layout_marginTop="15dp"
+            android:text="RetweetEssay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/multpics_iv_linera_01"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/multpics_iv_01"
+                android:src="@color/nullImageColor"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/multpics_iv_02"
+                android:src="@color/nullImageColor"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/multpics_iv_03"
+                android:src="@color/nullImageColor"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/multpics_iv_linera_02"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/multpics_iv_04"
+                android:src="@color/nullImageColor"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/multpics_iv_05"
+                android:src="@color/nullImageColor"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/multpics_iv_06"
+                android:src="@color/nullImageColor"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/multpics_iv_linera_03"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/multpics_iv_07"
+                android:src="@color/nullImageColor"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/multpics_iv_08"
+                android:src="@color/nullImageColor"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/multpics_iv_09"
+                android:src="@color/nullImageColor"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <include
+        layout="@layout/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_marginTop="10dp"
+        android:background="#8becefef" />
+</LinearLayout>
